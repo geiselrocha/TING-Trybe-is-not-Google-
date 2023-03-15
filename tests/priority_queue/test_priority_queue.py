@@ -1,9 +1,9 @@
 from ting_file_management.priority_queue import PriorityQueue
 import pytest
 
-mock_one = { "nome_do_arquivo": "file_name_one.txt", "qtd_linhas": 3,}
-mock_two = { "nome_do_arquivo": "file_name_two.txt", "qtd_linhas": 5,}
-mock_six = { "nome_do_arquivo": "file_name_six.txt", "qtd_linhas": 7,}
+mock_one = {"nome_do_arquivo": "file_name_one.txt", "qtd_linhas": 3, }
+mock_two = {"nome_do_arquivo": "file_name_two.txt", "qtd_linhas": 5, }
+mock_six = {"nome_do_arquivo": "file_name_six.txt", "qtd_linhas": 7, }
 
 
 def test_basic_priority_queueing():
